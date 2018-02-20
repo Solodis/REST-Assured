@@ -2,130 +2,130 @@
 <testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
   <reporter-output>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  52: start mathod [testCodeResponse]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  50: start mathod [testCodeResponse]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  65: start mathod [addDashboard]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  62: start mathod [addDashboard]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  79: ID of added dashboard: 5a8a8f1fb9d821000127f99f<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  76: ID of added dashboard: 5a8ad29db9d82100013884b4<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  80: end mathod [addDashboard]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  77: end mathod [addDashboard]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  85: <br>********************<br>start mathod [receivingOfDashboards]<br>********************<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  82: <br>********************<br>start mathod [receivingOfDashboards]<br>********************<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  97: Name is: DEMO DASHBOARD#RestAssured<br>Owner is: vyacheslav_utenkov<br>ID is: 5a757f4530c49e000171b2aa<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  94: Name is: DEMO DASHBOARD#RestAssured<br>Owner is: vyacheslav_utenkov<br>ID is: 5a757f4530c49e000171b2aa<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@2fc07784, widgetSize = [Ljava.lang.String;@353efdbf, widgetId = 5a757f4530c49e000171b2a1]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@2fc07784, widgetSize = [Ljava.lang.String;@353efdbf, widgetId = 5a757f4530c49e000171b2a1]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@55cff952, widgetSize = [Ljava.lang.String;@660591fb, widgetId = 5a757f4530c49e000171b2a2]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@55cff952, widgetSize = [Ljava.lang.String;@660591fb, widgetId = 5a757f4530c49e000171b2a2]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@4a55a6e8, widgetSize = [Ljava.lang.String;@8c46918, widgetId = 5a757f4530c49e000171b2a3]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@4a55a6e8, widgetSize = [Ljava.lang.String;@8c46918, widgetId = 5a757f4530c49e000171b2a3]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@226b143b, widgetSize = [Ljava.lang.String;@682bd3c4, widgetId = 5a757f4530c49e000171b2a4]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@226b143b, widgetSize = [Ljava.lang.String;@682bd3c4, widgetId = 5a757f4530c49e000171b2a4]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@f2e4acf, widgetSize = [Ljava.lang.String;@24097e9b, widgetId = 5a757f4530c49e000171b2a5]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@f2e4acf, widgetSize = [Ljava.lang.String;@24097e9b, widgetId = 5a757f4530c49e000171b2a5]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@5eb97ced, widgetSize = [Ljava.lang.String;@68ba310d, widgetId = 5a757f4530c49e000171b2a6]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@5eb97ced, widgetSize = [Ljava.lang.String;@68ba310d, widgetId = 5a757f4530c49e000171b2a6]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@153f66e7, widgetSize = [Ljava.lang.String;@7aad3f7d, widgetId = 5a757f4530c49e000171b2a7]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@153f66e7, widgetSize = [Ljava.lang.String;@7aad3f7d, widgetId = 5a757f4530c49e000171b2a7]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@6f667ad1, widgetSize = [Ljava.lang.String;@566d0c69, widgetId = 5a757f4530c49e000171b2a8]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@6f667ad1, widgetSize = [Ljava.lang.String;@566d0c69, widgetId = 5a757f4530c49e000171b2a8]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@388b401d, widgetSize = [Ljava.lang.String;@2bcec6a6, widgetId = 5a757f4530c49e000171b2a9]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@388b401d, widgetSize = [Ljava.lang.String;@2bcec6a6, widgetId = 5a757f4530c49e000171b2a9]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@151335cb, widgetSize = [Ljava.lang.String;@4a7761b1, widgetId = 5a868af7b9d821000154de2e]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@151335cb, widgetSize = [Ljava.lang.String;@4a7761b1, widgetId = 5a868af7b9d821000154de2e]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  97: Name is: NoName<br>Owner is: vyacheslav_utenkov<br>ID is: 5a8a8f1fb9d821000127f99f<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  94: Name is: NoName<br>Owner is: vyacheslav_utenkov<br>ID is: 5a8ad29db9d82100013884b4<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 103: end mathod [receivingOfDashboards]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 100: end mathod [receivingOfDashboards]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 109: start mathod [allLaunchs]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 106: start mathod [allLaunchs]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f1330c49e0001714840<br> Total: 42<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f1330c49e0001714840<br> Total: 42<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f1530c49e0001714c94<br> Total: 76<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f1530c49e0001714c94<br> Total: 76<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f1a30c49e00017155db<br> Total: 119<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f1a30c49e00017155db<br> Total: 119<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f2030c49e0001716304<br> Total: 131<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f2030c49e0001716304<br> Total: 131<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f2730c49e0001717229<br> Total: 133<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f2730c49e0001717229<br> Total: 133<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f2e30c49e0001718277<br> Total: 135<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f2e30c49e0001718277<br> Total: 135<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f3630c49e0001719210<br> Total: 137<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f3630c49e0001719210<br> Total: 137<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f3e30c49e000171a22c<br> Total: 138<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f3e30c49e000171a22c<br> Total: 138<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 141: Num Of Failed Launches: 8<br>=============================<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 138: Num Of Failed Launches: 8<br>=============================<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 142: end mathod [allLaunchs]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 139: end mathod [allLaunchs]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 147: start mathod [testPutRequest]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 144: start mathod [testPutRequest]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 159: start mathod [testPutRequest]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 156: end mathod [testPutRequest]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 164: start mathod [testDeleteRequest]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 161: start mathod [testDeleteRequest]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 172: INFO: Dasboard 5a8a8f1fb9d821000127f99f is deleted<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 169: INFO: Dasboard 5a8ad29db9d82100013884b4 is deleted<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 174: end mathod [testDeleteRequest]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 171: end mathod [testDeleteRequest]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 180: start mathod [allLaunchsSecondTest]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 177: start mathod [allLaunchsSecondTest]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 197: 5a757f1130c49e00017145f9<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 194: 5a757f1130c49e00017145f9<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 197: 5a757f3e30c49e000171a22c<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 194: 5a757f3e30c49e000171a22c<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 201: end mathod [allLaunchsSecondTest]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 198: end mathod [allLaunchsSecondTest]<br>]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="5600" started-at="2018-02-19T08:47:25Z" finished-at="2018-02-19T08:47:30Z">
+  <suite name="Suite" duration-ms="5725" started-at="2018-02-19T13:35:22Z" finished-at="2018-02-19T13:35:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5600" started-at="2018-02-19T08:47:25Z" finished-at="2018-02-19T08:47:30Z">
+    <test name="Test" duration-ms="5725" started-at="2018-02-19T13:35:22Z" finished-at="2018-02-19T13:35:28Z">
       <class name="epam.rest.utenkov.BaseTest">
-        <test-method status="PASS" signature="setBasicData()[pri:0, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="setBasicData" is-config="true" duration-ms="303" started-at="2018-02-19T11:47:25Z" finished-at="2018-02-19T11:47:25Z">
+        <test-method status="PASS" signature="setBasicData()[pri:0, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="setBasicData" is-config="true" duration-ms="311" started-at="2018-02-19T16:35:22Z" finished-at="2018-02-19T16:35:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBasicData -->
-        <test-method status="FAIL" signature="testCodeResponse()[pri:0, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="testCodeResponse" duration-ms="1180" started-at="2018-02-19T11:47:25Z" finished-at="2018-02-19T11:47:26Z">
+        <test-method status="FAIL" signature="testCodeResponse()[pri:0, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="testCodeResponse" duration-ms="1271" started-at="2018-02-19T16:35:23Z" finished-at="2018-02-19T16:35:24Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [401]]]>
@@ -138,7 +138,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:389)
 	at org.testng.Assert.assertEquals(Assert.java:399)
-	at epam.rest.utenkov.BaseTest.testCodeResponse(BaseTest.java:59)
+	at epam.rest.utenkov.BaseTest.testCodeResponse(BaseTest.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -169,142 +169,142 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  52: start mathod [testCodeResponse]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  50: start mathod [testCodeResponse]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testCodeResponse -->
-        <test-method status="PASS" signature="addDashboard()[pri:1, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="addDashboard" duration-ms="1031" started-at="2018-02-19T11:47:26Z" finished-at="2018-02-19T11:47:27Z">
+        <test-method status="PASS" signature="addDashboard()[pri:1, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="addDashboard" duration-ms="970" started-at="2018-02-19T16:35:24Z" finished-at="2018-02-19T16:35:25Z">
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  65: start mathod [addDashboard]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  62: start mathod [addDashboard]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  79: ID of added dashboard: 5a8a8f1fb9d821000127f99f<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  76: ID of added dashboard: 5a8ad29db9d82100013884b4<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  80: end mathod [addDashboard]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  77: end mathod [addDashboard]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addDashboard -->
-        <test-method status="PASS" signature="receivingOfDashboards()[pri:2, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="receivingOfDashboards" duration-ms="522" started-at="2018-02-19T11:47:27Z" finished-at="2018-02-19T11:47:28Z">
+        <test-method status="PASS" signature="receivingOfDashboards()[pri:2, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="receivingOfDashboards" duration-ms="506" started-at="2018-02-19T16:35:25Z" finished-at="2018-02-19T16:35:25Z">
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  85: <br>********************<br>start mathod [receivingOfDashboards]<br>********************<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  82: <br>********************<br>start mathod [receivingOfDashboards]<br>********************<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  97: Name is: DEMO DASHBOARD#RestAssured<br>Owner is: vyacheslav_utenkov<br>ID is: 5a757f4530c49e000171b2aa<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  94: Name is: DEMO DASHBOARD#RestAssured<br>Owner is: vyacheslav_utenkov<br>ID is: 5a757f4530c49e000171b2aa<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@2fc07784, widgetSize = [Ljava.lang.String;@353efdbf, widgetId = 5a757f4530c49e000171b2a1]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@2fc07784, widgetSize = [Ljava.lang.String;@353efdbf, widgetId = 5a757f4530c49e000171b2a1]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@55cff952, widgetSize = [Ljava.lang.String;@660591fb, widgetId = 5a757f4530c49e000171b2a2]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@55cff952, widgetSize = [Ljava.lang.String;@660591fb, widgetId = 5a757f4530c49e000171b2a2]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@4a55a6e8, widgetSize = [Ljava.lang.String;@8c46918, widgetId = 5a757f4530c49e000171b2a3]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@4a55a6e8, widgetSize = [Ljava.lang.String;@8c46918, widgetId = 5a757f4530c49e000171b2a3]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@226b143b, widgetSize = [Ljava.lang.String;@682bd3c4, widgetId = 5a757f4530c49e000171b2a4]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@226b143b, widgetSize = [Ljava.lang.String;@682bd3c4, widgetId = 5a757f4530c49e000171b2a4]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@f2e4acf, widgetSize = [Ljava.lang.String;@24097e9b, widgetId = 5a757f4530c49e000171b2a5]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@f2e4acf, widgetSize = [Ljava.lang.String;@24097e9b, widgetId = 5a757f4530c49e000171b2a5]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@5eb97ced, widgetSize = [Ljava.lang.String;@68ba310d, widgetId = 5a757f4530c49e000171b2a6]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@5eb97ced, widgetSize = [Ljava.lang.String;@68ba310d, widgetId = 5a757f4530c49e000171b2a6]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@153f66e7, widgetSize = [Ljava.lang.String;@7aad3f7d, widgetId = 5a757f4530c49e000171b2a7]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@153f66e7, widgetSize = [Ljava.lang.String;@7aad3f7d, widgetId = 5a757f4530c49e000171b2a7]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@6f667ad1, widgetSize = [Ljava.lang.String;@566d0c69, widgetId = 5a757f4530c49e000171b2a8]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@6f667ad1, widgetSize = [Ljava.lang.String;@566d0c69, widgetId = 5a757f4530c49e000171b2a8]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@388b401d, widgetSize = [Ljava.lang.String;@2bcec6a6, widgetId = 5a757f4530c49e000171b2a9]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@388b401d, widgetSize = [Ljava.lang.String;@2bcec6a6, widgetId = 5a757f4530c49e000171b2a9]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  99: Widgets [widgetPosition = [Ljava.lang.String;@151335cb, widgetSize = [Ljava.lang.String;@4a7761b1, widgetId = 5a868af7b9d821000154de2e]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  96: Widgets [widgetPosition = [Ljava.lang.String;@151335cb, widgetSize = [Ljava.lang.String;@4a7761b1, widgetId = 5a868af7b9d821000154de2e]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  97: Name is: NoName<br>Owner is: vyacheslav_utenkov<br>ID is: 5a8a8f1fb9d821000127f99f<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  94: Name is: NoName<br>Owner is: vyacheslav_utenkov<br>ID is: 5a8ad29db9d82100013884b4<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 103: end mathod [receivingOfDashboards]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 100: end mathod [receivingOfDashboards]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- receivingOfDashboards -->
-        <test-method status="PASS" signature="allLaunchs()[pri:3, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="allLaunchs" duration-ms="894" started-at="2018-02-19T11:47:28Z" finished-at="2018-02-19T11:47:29Z">
+        <test-method status="PASS" signature="allLaunchs()[pri:3, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="allLaunchs" duration-ms="925" started-at="2018-02-19T16:35:25Z" finished-at="2018-02-19T16:35:26Z">
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 109: start mathod [allLaunchs]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 106: start mathod [allLaunchs]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f1330c49e0001714840<br> Total: 42<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f1330c49e0001714840<br> Total: 42<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f1530c49e0001714c94<br> Total: 76<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f1530c49e0001714c94<br> Total: 76<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f1a30c49e00017155db<br> Total: 119<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f1a30c49e00017155db<br> Total: 119<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f2030c49e0001716304<br> Total: 131<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f2030c49e0001716304<br> Total: 131<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f2730c49e0001717229<br> Total: 133<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f2730c49e0001717229<br> Total: 133<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f2e30c49e0001718277<br> Total: 135<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f2e30c49e0001718277<br> Total: 135<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f3630c49e0001719210<br> Total: 137<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f3630c49e0001719210<br> Total: 137<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 138: 5a757f3e30c49e000171a22c<br> Total: 138<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 135: 5a757f3e30c49e000171a22c<br> Total: 138<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 141: Num Of Failed Launches: 8<br>=============================<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 138: Num Of Failed Launches: 8<br>=============================<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 142: end mathod [allLaunchs]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 139: end mathod [allLaunchs]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- allLaunchs -->
-        <test-method status="PASS" signature="testPutRequest()[pri:4, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="testPutRequest" duration-ms="512" started-at="2018-02-19T11:47:29Z" finished-at="2018-02-19T11:47:29Z">
+        <test-method status="PASS" signature="testPutRequest()[pri:4, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="testPutRequest" duration-ms="513" started-at="2018-02-19T16:35:26Z" finished-at="2018-02-19T16:35:27Z">
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 147: start mathod [testPutRequest]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 144: start mathod [testPutRequest]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 159: start mathod [testPutRequest]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 156: end mathod [testPutRequest]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testPutRequest -->
-        <test-method status="PASS" signature="testDeleteRequest()[pri:5, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="testDeleteRequest" duration-ms="505" started-at="2018-02-19T11:47:29Z" finished-at="2018-02-19T11:47:30Z">
+        <test-method status="PASS" signature="testDeleteRequest()[pri:5, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="testDeleteRequest" duration-ms="550" started-at="2018-02-19T16:35:27Z" finished-at="2018-02-19T16:35:27Z">
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 164: start mathod [testDeleteRequest]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 161: start mathod [testDeleteRequest]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 172: INFO: Dasboard 5a8a8f1fb9d821000127f99f is deleted<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 169: INFO: Dasboard 5a8ad29db9d82100013884b4 is deleted<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 174: end mathod [testDeleteRequest]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 171: end mathod [testDeleteRequest]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDeleteRequest -->
-        <test-method status="PASS" signature="allLaunchsSecondTest()[pri:6, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="allLaunchsSecondTest" duration-ms="631" started-at="2018-02-19T11:47:30Z" finished-at="2018-02-19T11:47:30Z">
+        <test-method status="PASS" signature="allLaunchsSecondTest()[pri:6, instance:epam.rest.utenkov.BaseTest@10bdf5e5]" name="allLaunchsSecondTest" duration-ms="659" started-at="2018-02-19T16:35:27Z" finished-at="2018-02-19T16:35:28Z">
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 180: start mathod [allLaunchsSecondTest]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 177: start mathod [allLaunchsSecondTest]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 197: 5a757f1130c49e00017145f9<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 194: 5a757f1130c49e00017145f9<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 197: 5a757f3e30c49e000171a22c<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 194: 5a757f3e30c49e000171a22c<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 201: end mathod [allLaunchsSecondTest]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 198: end mathod [allLaunchsSecondTest]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- allLaunchsSecondTest -->

@@ -153,7 +153,7 @@ public class BaseTest {
 		.log()
 		.all()
 		.assertThat().statusCode(200); 
-	     LOG.info("start mathod [testPutRequest]");
+	     LOG.info("end mathod [testPutRequest]");
 	}
 	
 	@Test(priority = 5)
