@@ -1,90 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="7" passed="3">
+<testng-results skipped="0" failed="3" ignored="0" total="7" passed="4">
   <reporter-output>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  50: start mathod [testCodeResponse]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  40: start mathod [testCodeResponse]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  56: end mathod [testCodeResponse]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  46: end mathod [testCodeResponse]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  61: start mathod [addDashboard]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  51: start mathod [addDashboard]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest#  81: <br>********************<br>start mathod [receivingOfDashboards]<br>********************<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  53: Dashboard created:Dushboard name: NoName; Description: JustForTest; is share: false<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 105: start mathod [allLaunchs]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  73: <br>********************<br>start mathod [receivingOfDashboards]<br>********************<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f1330c49e0001714840<br> Total: 42<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  82: <br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f1530c49e0001714c94<br> Total: 76<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  83: end mathod [receivingOfDashboards]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f1a30c49e00017155db<br> Total: 119<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest#  89: start mathod [allLaunchs]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f2030c49e0001716304<br> Total: 131<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f1330c49e0001714840<br> Total: 42<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f2730c49e0001717229<br> Total: 133<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f1530c49e0001714c94<br> Total: 76<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f2e30c49e0001718277<br> Total: 135<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f1a30c49e00017155db<br> Total: 119<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f3630c49e0001719210<br> Total: 137<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f2030c49e0001716304<br> Total: 131<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f3e30c49e000171a22c<br> Total: 138<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f2730c49e0001717229<br> Total: 133<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 137: Num Of Failed Launches: 8<br>=============================<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f2e30c49e0001718277<br> Total: 135<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 138: end mathod [allLaunchs]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f3630c49e0001719210<br> Total: 137<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 143: start mathod [testPutRequest]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f3e30c49e000171a22c<br> Total: 138<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 160: start mathod [testDeleteRequest]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 122: Num Of Failed Launches: 8<br>=============================<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 176: start mathod [allLaunchsSecondTest]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 123: end mathod [allLaunchs]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 193: 5a757f1130c49e00017145f9<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 128: start mathod [testPutRequest]<br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 193: 5a757f3e30c49e000171a22c<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 129: ID: <br>]]>
     </line>
     <line>
-      <![CDATA[ReportingAppender:  INFO    BaseTest# 197: end mathod [allLaunchsSecondTest]<br>]]>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 146: start mathod [testDeleteRequest]<br>]]>
+    </line>
+    <line>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 162: start mathod [allLaunchsSecondTest]<br>]]>
+    </line>
+    <line>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 179: 5a757f1130c49e00017145f9<br>]]>
+    </line>
+    <line>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 179: 5a757f3e30c49e000171a22c<br>]]>
+    </line>
+    <line>
+      <![CDATA[ReportingAppender:  INFO    BaseTest# 183: end mathod [allLaunchsSecondTest]<br>]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="5519" started-at="2018-02-21T09:09:37Z" finished-at="2018-02-21T09:09:42Z">
+  <suite name="Suite" duration-ms="5837" started-at="2018-02-21T11:00:35Z" finished-at="2018-02-21T11:00:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5519" started-at="2018-02-21T09:09:37Z" finished-at="2018-02-21T09:09:42Z">
+    <test name="Test" duration-ms="5837" started-at="2018-02-21T11:00:35Z" finished-at="2018-02-21T11:00:41Z">
       <class name="epam.rest.utenkov.BaseTest">
-        <test-method status="PASS" signature="setBasicData()[pri:0, instance:epam.rest.utenkov.BaseTest@3b0143d3]" name="setBasicData" is-config="true" duration-ms="238" started-at="2018-02-21T12:09:37Z" finished-at="2018-02-21T12:09:37Z">
+        <test-method status="PASS" signature="setBasicData()[pri:0, instance:epam.rest.utenkov.BaseTest@6e0e048a]" name="setBasicData" is-config="true" duration-ms="261" started-at="2018-02-21T14:00:35Z" finished-at="2018-02-21T14:00:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBasicData -->
-        <test-method status="PASS" signature="testCodeResponse()[pri:0, instance:epam.rest.utenkov.BaseTest@3b0143d3]" name="testCodeResponse" duration-ms="1424" started-at="2018-02-21T12:09:37Z" finished-at="2018-02-21T12:09:39Z">
+        <test-method status="PASS" signature="testCodeResponse()[pri:0, instance:epam.rest.utenkov.BaseTest@6e0e048a]" name="testCodeResponse" duration-ms="1590" started-at="2018-02-21T14:00:35Z" finished-at="2018-02-21T14:00:37Z">
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  50: start mathod [testCodeResponse]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  40: start mathod [testCodeResponse]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  56: end mathod [testCodeResponse]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  46: end mathod [testCodeResponse]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testCodeResponse -->
-        <test-method status="FAIL" signature="addDashboard()[pri:1, instance:epam.rest.utenkov.BaseTest@3b0143d3]" name="addDashboard" duration-ms="178" started-at="2018-02-21T12:09:39Z" finished-at="2018-02-21T12:09:39Z">
+        <test-method status="FAIL" signature="addDashboard()[pri:1, instance:epam.rest.utenkov.BaseTest@6e0e048a]" name="addDashboard" duration-ms="216" started-at="2018-02-21T14:00:37Z" finished-at="2018-02-21T14:00:37Z">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA[com.fasterxml.jackson.annotation.JsonInclude$Value.merge(Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;]]>
@@ -130,7 +142,7 @@
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
 	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:831)
-	at epam.rest.utenkov.BaseTest.addDashboard(BaseTest.java:65)
+	at epam.rest.utenkov.BaseTest.addDashboard(BaseTest.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -161,137 +173,64 @@
           </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  61: start mathod [addDashboard]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  51: start mathod [addDashboard]<br>]]>
+            </line>
+            <line>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  53: Dashboard created:Dushboard name: NoName; Description: JustForTest; is share: false<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addDashboard -->
-        <test-method status="FAIL" signature="receivingOfDashboards()[pri:2, instance:epam.rest.utenkov.BaseTest@3b0143d3]" name="receivingOfDashboards" duration-ms="725" started-at="2018-02-21T12:09:39Z" finished-at="2018-02-21T12:09:39Z">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[com/fasterxml/jackson/annotation/JsonIgnoreProperties$Value]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: com/fasterxml/jackson/annotation/JsonIgnoreProperties$Value
-	at com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultPropertyIgnorals(MapperConfigBase.java:556)
-	at com.fasterxml.jackson.databind.deser.BeanDeserializerFactory.addBeanProps(BeanDeserializerFactory.java:452)
-	at com.fasterxml.jackson.databind.deser.BeanDeserializerFactory.buildBeanDeserializer(BeanDeserializerFactory.java:226)
-	at com.fasterxml.jackson.databind.deser.BeanDeserializerFactory.createBeanDeserializer(BeanDeserializerFactory.java:141)
-	at com.fasterxml.jackson.databind.deser.DeserializerCache._createDeserializer2(DeserializerCache.java:403)
-	at com.fasterxml.jackson.databind.deser.DeserializerCache._createDeserializer(DeserializerCache.java:349)
-	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:264)
-	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
-	at com.fasterxml.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:142)
-	at com.fasterxml.jackson.databind.DeserializationContext.findContextualValueDeserializer(DeserializationContext.java:443)
-	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.createContextual(ObjectArrayDeserializer.java:134)
-	at com.fasterxml.jackson.databind.DeserializationContext.handleSecondaryContextualization(DeserializationContext.java:681)
-	at com.fasterxml.jackson.databind.DeserializationContext.findRootValueDeserializer(DeserializationContext.java:481)
-	at com.fasterxml.jackson.databind.ObjectMapper._findRootDeserializer(ObjectMapper.java:3899)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3794)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2880)
-	at com.fasterxml.jackson.databind.ObjectMapper$readValue$2.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
-	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.groovy:45)
-	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
-	at io.restassured.mapper.ObjectMapper$deserialize$0.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:202)
-	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$1.callStatic(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:56)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:194)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:214)
-	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:55)
-	at io.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:222)
-	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:164)
-	at epam.rest.utenkov.BaseTest.receivingOfDashboards(BaseTest.java:90)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.annotation.JsonIgnoreProperties$Value
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 67 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+        <test-method status="PASS" signature="receivingOfDashboards()[pri:2, instance:epam.rest.utenkov.BaseTest@6e0e048a]" name="receivingOfDashboards" duration-ms="719" started-at="2018-02-21T14:00:37Z" finished-at="2018-02-21T14:00:38Z">
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest#  81: <br>********************<br>start mathod [receivingOfDashboards]<br>********************<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  73: <br>********************<br>start mathod [receivingOfDashboards]<br>********************<br>]]>
+            </line>
+            <line>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  82: <br>]]>
+            </line>
+            <line>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  83: end mathod [receivingOfDashboards]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- receivingOfDashboards -->
-        <test-method status="PASS" signature="allLaunchs()[pri:3, instance:epam.rest.utenkov.BaseTest@3b0143d3]" name="allLaunchs" duration-ms="1377" started-at="2018-02-21T12:09:39Z" finished-at="2018-02-21T12:09:41Z">
+        <test-method status="PASS" signature="allLaunchs()[pri:3, instance:epam.rest.utenkov.BaseTest@6e0e048a]" name="allLaunchs" duration-ms="1441" started-at="2018-02-21T14:00:38Z" finished-at="2018-02-21T14:00:39Z">
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 105: start mathod [allLaunchs]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest#  89: start mathod [allLaunchs]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f1330c49e0001714840<br> Total: 42<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f1330c49e0001714840<br> Total: 42<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f1530c49e0001714c94<br> Total: 76<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f1530c49e0001714c94<br> Total: 76<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f1a30c49e00017155db<br> Total: 119<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f1a30c49e00017155db<br> Total: 119<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f2030c49e0001716304<br> Total: 131<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f2030c49e0001716304<br> Total: 131<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f2730c49e0001717229<br> Total: 133<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f2730c49e0001717229<br> Total: 133<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f2e30c49e0001718277<br> Total: 135<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f2e30c49e0001718277<br> Total: 135<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f3630c49e0001719210<br> Total: 137<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f3630c49e0001719210<br> Total: 137<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 134: 5a757f3e30c49e000171a22c<br> Total: 138<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 119: 5a757f3e30c49e000171a22c<br> Total: 138<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 137: Num Of Failed Launches: 8<br>=============================<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 122: Num Of Failed Launches: 8<br>=============================<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 138: end mathod [allLaunchs]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 123: end mathod [allLaunchs]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- allLaunchs -->
-        <test-method status="FAIL" signature="testPutRequest()[pri:4, instance:epam.rest.utenkov.BaseTest@3b0143d3]" name="testPutRequest" duration-ms="2" started-at="2018-02-21T12:09:41Z" finished-at="2018-02-21T12:09:41Z">
+        <test-method status="FAIL" signature="testPutRequest()[pri:4, instance:epam.rest.utenkov.BaseTest@6e0e048a]" name="testPutRequest" duration-ms="3" started-at="2018-02-21T14:00:39Z" finished-at="2018-02-21T14:00:39Z">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA[com.fasterxml.jackson.annotation.JsonInclude$Value.merge(Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;]]>
@@ -327,7 +266,7 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.annotation.Js
 	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:117)
 	at io.restassured.internal.mapping.ObjectMapping$serialize.call(Unknown Source)
 	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:831)
-	at epam.rest.utenkov.BaseTest.testPutRequest(BaseTest.java:147)
+	at epam.rest.utenkov.BaseTest.testPutRequest(BaseTest.java:133)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -358,11 +297,14 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.annotation.Js
           </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 143: start mathod [testPutRequest]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 128: start mathod [testPutRequest]<br>]]>
+            </line>
+            <line>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 129: ID: <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testPutRequest -->
-        <test-method status="FAIL" signature="testDeleteRequest()[pri:5, instance:epam.rest.utenkov.BaseTest@3b0143d3]" name="testDeleteRequest" duration-ms="721" started-at="2018-02-21T12:09:41Z" finished-at="2018-02-21T12:09:42Z">
+        <test-method status="FAIL" signature="testDeleteRequest()[pri:5, instance:epam.rest.utenkov.BaseTest@6e0e048a]" name="testDeleteRequest" duration-ms="732" started-at="2018-02-21T14:00:39Z" finished-at="2018-02-21T14:00:40Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -397,7 +339,7 @@ Expected status code <200> but was <405>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at epam.rest.utenkov.BaseTest.testDeleteRequest(BaseTest.java:166)
+	at epam.rest.utenkov.BaseTest.testDeleteRequest(BaseTest.java:152)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -428,23 +370,23 @@ Expected status code <200> but was <405>.
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 160: start mathod [testDeleteRequest]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 146: start mathod [testDeleteRequest]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDeleteRequest -->
-        <test-method status="PASS" signature="allLaunchsSecondTest()[pri:6, instance:epam.rest.utenkov.BaseTest@3b0143d3]" name="allLaunchsSecondTest" duration-ms="831" started-at="2018-02-21T12:09:42Z" finished-at="2018-02-21T12:09:42Z">
+        <test-method status="PASS" signature="allLaunchsSecondTest()[pri:6, instance:epam.rest.utenkov.BaseTest@6e0e048a]" name="allLaunchsSecondTest" duration-ms="851" started-at="2018-02-21T14:00:40Z" finished-at="2018-02-21T14:00:41Z">
           <reporter-output>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 176: start mathod [allLaunchsSecondTest]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 162: start mathod [allLaunchsSecondTest]<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 193: 5a757f1130c49e00017145f9<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 179: 5a757f1130c49e00017145f9<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 193: 5a757f3e30c49e000171a22c<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 179: 5a757f3e30c49e000171a22c<br>]]>
             </line>
             <line>
-              <![CDATA[ReportingAppender:  INFO    BaseTest# 197: end mathod [allLaunchsSecondTest]<br>]]>
+              <![CDATA[ReportingAppender:  INFO    BaseTest# 183: end mathod [allLaunchsSecondTest]<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- allLaunchsSecondTest -->

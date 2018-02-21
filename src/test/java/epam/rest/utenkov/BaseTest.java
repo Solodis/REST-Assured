@@ -14,13 +14,10 @@ import org.testng.annotations.Test;
 import org.uncommons.reportng.HTMLReporter;
 
 import epam.rest.utenkov.bo.Dashboard;
-import epam.rest.utenkov.bo.FromSite;
-import epam.rest.utenkov.bo.Widgets;
 import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
+
 @Listeners({HTMLReporter.class})
 public class BaseTest {
 	
@@ -31,18 +28,11 @@ public class BaseTest {
 	public String dashboardID = "";
 	public List<String> launchList = null;
 	public static final int REQUIRED_TOTAL = 138;
-	public RequestSpecification rspec;
-	public RequestSpecBuilder build;
-	
 	
 	@BeforeTest
 	public void setBasicData(){
-		//build = new RequestSpecBuilder();
-		//build.setBaseUri("https://rp.epam.com/");
-		//build.setBasePath("api/v1/vyacheslav_utenkov_personal");
 		RestAssured.baseURI = "https://rp.epam.com/";
 		RestAssured.basePath = "api/v1/vyacheslav_utenkov_personal";
-		//rspec = build.build();
 	}
 	
 	@Test(priority = 0)
@@ -59,19 +49,21 @@ public class BaseTest {
 	@Test(priority = 1)
 	public void addDashboard(){
 		LOG.info("start mathod [addDashboard]");
-		Dashboard dash = new Dashboard("NoName", "JustForTest", false, null);
-		dashboardID = given()
-		.header("Authorization", auth)
-		.body(dash)
+		Dashboard dash = new Dashboard("NoName", "JustForTest", false);
+		LOG.info("Dashboard created:" + dash);
+		dashboardID = 
+		given()
+				.header("Authorization", auth)
+				.body(dash)
 		.when()
-		.contentType(ContentType.JSON)
-		.post("/dashboard")
+			.contentType(ContentType.JSON)
+			.post("/dashboard")
 		.then()
-		.log()
-		.all()
-		.assertThat().statusCode(201)
-		.extract()
-		.response().path("id");
+			.contentType(ContentType.JSON)
+			.assertThat().statusCode(201)
+			.extract()
+			.response().path("id");
+		LOG.info("");
 		LOG.info("ID of added dashboard: " + dashboardID);
 		LOG.info("end mathod [addDashboard]");
 	}
@@ -79,23 +71,15 @@ public class BaseTest {
 	@Test(priority = 2)
 	public void receivingOfDashboards(){
 		LOG.info("\n********************\nstart mathod [receivingOfDashboards]\n********************");
-		Response response = 
+		 
 		 given()
 		 	.header("Authorization", auth)
 		.when()
+			.contentType(ContentType.JSON)
 			.get("/dashboard")
 		.then().assertThat().statusCode(200).extract().response()
 			.andReturn();
-		
-		FromSite []dashboards = response.as(FromSite[].class);
-		Assert.assertEquals(response.statusCode(), 200);
-		for (FromSite dashboard : dashboards) {
-			LOG.info("Name is: " + dashboard.getName() + "\nOwner is: " + dashboard.getOwner() + "\nID is: " + dashboard.getId());
-			for (Widgets widget : dashboard.getWidgets()) {
-				LOG.info(widget);
-			}
-		}
-		Assert.assertEquals(response.statusCode(), 200);
+		LOG.info("");
 		LOG.info("end mathod [receivingOfDashboards]");
 	}
 	
@@ -107,6 +91,7 @@ public class BaseTest {
 		given()
 			.header("Authorization", auth)
 		.when()
+			.contentType(ContentType.JSON)
 			.get("/launch")
 		.then()
 			.contentType(ContentType.JSON)
@@ -141,7 +126,8 @@ public class BaseTest {
 	@Test(priority = 4)
 	public void testPutRequest(){
 		LOG.info("start mathod [testPutRequest]");
-		Dashboard dash = new Dashboard("NewModrnNoName", "JustForModernPutTest", false, null);
+		LOG.info("ID: " + dashboardID);
+		Dashboard dash = new Dashboard("NewModrnNoName", "JustForModernPutTest", true);
 	     given()
 		.header("Authorization", auth)
 		.body(dash)

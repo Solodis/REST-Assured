@@ -1,51 +1,46 @@
 package epam.rest.utenkov.bo;
 
 public class Dashboard {
-	private String name;
-	private String owner;
+	
 	private boolean share;
-	private Widgets [] widgets;
-	
-	public Dashboard(String name, String owner, boolean share, Widgets[] widgets) {
-		super();
-		this.name = name;
-		this.owner = owner;
+    private String description;
+    private String name;
+    
+    
+
+	public Dashboard(String name, String description, boolean share) {
 		this.share = share;
-		this.widgets = widgets;
-	}
-
-	public Widgets[] getWidgets() {
-		return widgets;
-	}
-
-	public void setWidgets(Widgets[] widgets) {
-		this.widgets = widgets;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
+		this.description = description;
 		this.name = name;
 	}
 
-	public String getOwner() {
-		return owner;
-	}
+	public boolean getShare (){
+        return share;
+    }
 
-	public void setOwner(String discription) {
-		this.owner = discription;
-	}
+    public void setShare (boolean share){
+        this.share = share;
+    }
 
-	public boolean isShare() {
-		return share;
-	}
+    public String getDescription (){
+        return description;
+    }
 
-	public void setShare(boolean share) {
-		this.share = share;
-	}
-	
-	
-	
+    public void setDescription (String description){
+        this.description = description;
+    }
+
+    public String getName (){
+        return name;
+    }
+
+    public void setName (String name){
+        this.name = name;
+    }
+    
+    @Override
+    public String toString() {
+    	
+    	return "Dushboard name: " + name + "; Description: " + description + "; is share: " + share;
+    }
 }
