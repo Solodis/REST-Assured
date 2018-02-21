@@ -23,14 +23,16 @@ public class BaseTest {
 	
 	private static final Logger LOG = Logger.getLogger(BaseTest.class);
 	
+
 	
-	public String auth = "bearer 0517e698-59ef-4855-9a31-cd1e028c0f7f";
+	public String auth = "bearer 0b2a3295-7535-4333-8d8c-13049ba4c5a8";
 	public String dashboardID = "";
 	public List<String> launchList = null;
 	public static final int REQUIRED_TOTAL = 138;
 	
 	@BeforeTest
 	public void setBasicData(){
+		
 		RestAssured.baseURI = "https://rp.epam.com/";
 		RestAssured.basePath = "api/v1/vyacheslav_utenkov_personal";
 	}
@@ -38,6 +40,7 @@ public class BaseTest {
 	@Test(priority = 0)
 	public void testCodeResponse(){
 		LOG.info("start mathod [testCodeResponse]");
+		
 		Response res = given().header("Authorization", auth)
 		.when()
 			.get("/launch").andReturn();
