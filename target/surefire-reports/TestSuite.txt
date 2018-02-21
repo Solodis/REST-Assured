@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 5, Errors: 0, Skipped: 1, Time elapsed: 6.25 s <<< FAILURE! - in TestSuite
+requestSpec(epam.rest.utenkov.ResponseSpecTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NullPointerException
+	at epam.rest.utenkov.ResponseSpecTest.requestSpec(ResponseSpecTest.java:27)
+
+addDashboard(epam.rest.utenkov.BaseTest)  Time elapsed: 0.275 s  <<< FAILURE!
+java.lang.NoSuchMethodError: com.fasterxml.jackson.annotation.JsonInclude$Value.merge(Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+	at epam.rest.utenkov.BaseTest.addDashboard(BaseTest.java:66)
+
+receivingOfDashboards(epam.rest.utenkov.BaseTest)  Time elapsed: 0.725 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/fasterxml/jackson/annotation/JsonIgnoreProperties$Value
+	at epam.rest.utenkov.BaseTest.receivingOfDashboards(BaseTest.java:91)
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.annotation.JsonIgnoreProperties$Value
+	at epam.rest.utenkov.BaseTest.receivingOfDashboards(BaseTest.java:91)
+
+testPutRequest(epam.rest.utenkov.BaseTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NoSuchMethodError: com.fasterxml.jackson.annotation.JsonInclude$Value.merge(Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
+	at epam.rest.utenkov.BaseTest.testPutRequest(BaseTest.java:148)
+
+testDeleteRequest(epam.rest.utenkov.BaseTest)  Time elapsed: 0.745 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <405>.
+
+	at epam.rest.utenkov.BaseTest.testDeleteRequest(BaseTest.java:167)
+
