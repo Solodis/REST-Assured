@@ -27,7 +27,7 @@ public class BaseTest {
 	private static final Logger LOG = Logger.getLogger(BaseTest.class);
 	
 	
-	public String auth = "bearer c0d2a5d4-abcc-4d01-befb-f101bfb76151";
+	public String auth = "bearer 0517e698-59ef-4855-9a31-cd1e028c0f7f";
 	public String dashboardID = "";
 	public List<String> launchList = null;
 	public static final int REQUIRED_TOTAL = 138;
@@ -37,21 +37,20 @@ public class BaseTest {
 	
 	@BeforeTest
 	public void setBasicData(){
-		build = new RequestSpecBuilder();
-		build.setBaseUri("https://rp.epam.com/");
-		build.setBasePath("api/v1/vyacheslav_utenkov_personal");
+		//build = new RequestSpecBuilder();
+		//build.setBaseUri("https://rp.epam.com/");
+		//build.setBasePath("api/v1/vyacheslav_utenkov_personal");
 		RestAssured.baseURI = "https://rp.epam.com/";
 		RestAssured.basePath = "api/v1/vyacheslav_utenkov_personal";
-		rspec = build.build();
+		//rspec = build.build();
 	}
 	
 	@Test(priority = 0)
 	public void testCodeResponse(){
 		LOG.info("start mathod [testCodeResponse]");
-		Response res = given()
-			.spec(rspec)
+		Response res = given().header("Authorization", auth)
 		.when()
-			.get().andReturn();
+			.get("/launch").andReturn();
 		
 		Assert.assertEquals(res.statusCode(), 200);
 		LOG.info("end mathod [testCodeResponse]");

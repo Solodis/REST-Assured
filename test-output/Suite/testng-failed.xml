@@ -6,7 +6,10 @@
       <class name="epam.rest.utenkov.BaseTest">
         <methods>
           <include name="setBasicData"/>
-          <include name="testCodeResponse"/>
+          <include name="addDashboard"/>
+          <include name="testDeleteRequest"/>
+          <include name="receivingOfDashboards"/>
+          <include name="testPutRequest"/>
         </methods>
       </class> <!-- epam.rest.utenkov.BaseTest -->
     </classes>
