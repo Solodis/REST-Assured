@@ -22,9 +22,6 @@ import io.restassured.response.Response;
 public class BaseTest {
 	
 	private static final Logger LOG = Logger.getLogger(BaseTest.class);
-	
-
-	
 	public String auth = "bearer 0b2a3295-7535-4333-8d8c-13049ba4c5a8";
 	public String dashboardID = "";
 	public List<String> launchList = null;
@@ -49,29 +46,26 @@ public class BaseTest {
 		LOG.info("end mathod [testCodeResponse]");
 	}
 	
-	@Test(priority = 1)
+	@Test()
 	public void addDashboard(){
-		LOG.info("start mathod [addDashboard]");
-		Dashboard dash = new Dashboard("NoName", "JustForTest", false);
-		LOG.info("Dashboard created:" + dash);
-		dashboardID = 
-		given()
-				.header("Authorization", auth)
-				.body(dash)
+		Dashboard dash = new Dashboard("NoName", "JustForTest", "false");
+		LOG.info("Dashboard created: " + dash);
+		dashboardID = given().header("Authorization", auth)
+			.body(dash)
 		.when()
-			.contentType(ContentType.JSON)
+			.contentType("application/json")
 			.post("/dashboard")
 		.then()
-			.contentType(ContentType.JSON)
-			.assertThat().statusCode(201)
+			.assertThat()
+			.statusCode(201)
 			.extract()
-			.response().path("id");
-		LOG.info("");
-		LOG.info("ID of added dashboard: " + dashboardID);
-		LOG.info("end mathod [addDashboard]");
+			.response()
+			.path("id");
+		
+		LOG.info("Dushboard ID: " + dashboardID);
 	}
 	
-	@Test(priority = 2)
+	@Test()
 	public void receivingOfDashboards(){
 		LOG.info("\n********************\nstart mathod [receivingOfDashboards]\n********************");
 		 
@@ -87,14 +81,13 @@ public class BaseTest {
 	}
 	
 	
-	@Test(priority = 3)
+	@Test()
 	public void allLaunchs(){
 		LOG.info("start mathod [allLaunchs]");
 		Response res = 
 		given()
 			.header("Authorization", auth)
 		.when()
-			.contentType(ContentType.JSON)
 			.get("/launch")
 		.then()
 			.contentType(ContentType.JSON)
@@ -126,11 +119,11 @@ public class BaseTest {
 		LOG.info("end mathod [allLaunchs]");
 	}
 	
-	@Test(priority = 4)
+	@Test(dependsOnMethods="addDashboard")
 	public void testPutRequest(){
 		LOG.info("start mathod [testPutRequest]");
 		LOG.info("ID: " + dashboardID);
-		Dashboard dash = new Dashboard("NewModrnNoName", "JustForModernPutTest", true);
+		Dashboard dash = new Dashboard("NewModrnNoName", "JustForModernPutTest", "false");
 	     given()
 		.header("Authorization", auth)
 		.body(dash)
@@ -144,7 +137,7 @@ public class BaseTest {
 	     LOG.info("end mathod [testPutRequest]");
 	}
 	
-	@Test(priority = 5)
+	@Test(dependsOnMethods="testPutRequest")
 	public void testDeleteRequest(){
 		LOG.info("start mathod [testDeleteRequest]");
 		int expectedCode = 200;
