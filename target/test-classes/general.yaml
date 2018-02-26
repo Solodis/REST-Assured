@@ -3,7 +3,8 @@ threadCount: 1
 listeners:
  - com.epam.reportportal.testng.ReportPortalTestNGListener
  
- tests:
- - name: BaseTest
-   classes: 
-   - epam.rest.utenkov.BaseTest
+tests:
+  - name: BaseTest
+    classes: 
+     - epam.rest.utenkov.BaseTest
+     

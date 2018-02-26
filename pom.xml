@@ -5,16 +5,36 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <repositories>
-	<repository>
-		<snapshots>
-		<enabled>false</enabled>
-		</snapshots>
-		<id>bintray-epam-reportportal</id>
-		<name>bintray</name>
-		<url>http://dl.bintray.com/epam/reportportal</url>
-	</repository>
-  </repositories>
+     <repository>
+        <snapshots>
+          <enabled>false</enabled>
+        </snapshots>
+        <id>bintray-epam-reportportal</id>
+        <name>bintray</name>
+        <url>http://dl.bintray.com/epam/reportportal</url>
+     </repository>
+</repositories>
   <dependencies>
+  <dependency>
+    	<groupId>com.google.inject</groupId>
+    	<artifactId>guice</artifactId>
+    	<version>3.0</version>
+	</dependency>
+  <dependency>
+  		<groupId>com.epam.reportportal</groupId>
+  		<artifactId>agent-java-testng</artifactId>
+  		<version>3.0.0</version>
+	</dependency>
+	<dependency>
+ 		 <groupId>com.epam.reportportal</groupId>
+  		 <artifactId>logger-java-log4j</artifactId>
+  		 <version>3.0.0</version>
+	</dependency>
+  	<dependency>
+  		<groupId>com.google.guava</groupId>
+  		<artifactId>guava</artifactId>
+  		<version>24.0-jre</version>
+	</dependency>
   	<dependency>
     	<groupId>org.testng</groupId>
     	<artifactId>testng</artifactId>
@@ -51,21 +71,6 @@
   		<artifactId>json-schema-validator</artifactId>
   		<version>3.0.6</version>
   	</dependency>
-  	<dependency>
-    	<groupId>com.google.inject</groupId>
-    	<artifactId>guice</artifactId>
-    	<version>3.0</version>
-	</dependency>
-	<dependency>
-		<groupId>com.epam.reportportal</groupId>
-		<artifactId>agent-java-testng</artifactId>
-		<version>3.0.6</version>
-	</dependency>
-	<dependency>
-		<groupId>com.epam.reportportal</groupId>
-		<artifactId>logger-java-log4j</artifactId>
-		<version>3.0.0</version>
-	</dependency>
 	<dependency>
     	<groupId>org.slf4j</groupId>
     	<artifactId>slf4j-simple</artifactId>
@@ -80,31 +85,24 @@
 			<artifactId>maven-surefire-plugin</artifactId>
 			<version>2.20</version>
 			<executions>
-			<execution>
-			<id>BaseTest</id>
-                    <goals>
-                        <goal>test</goal>
-                    </goals>
-                    <phase>integration-test</phase>
-			<configuration>
-				<properties>
-					<property>
-						<name>usedefaultlisteners</name>
-						<value>false</value> <!-- disabling default listeners is optional -->
-					</property>
-					<property>
-						<name>listener</name>
-						<value>com.epam.reportportal.testng.ReportPortalTestNGListener</value>
-					</property>
-				</properties>
-				<excludes>
-                   <exclude>none</exclude>
-                 </excludes>
-                 <includes>
-                    <include>epam\rest\utenkov\BaseTest.java</include>
-                 </includes>
-			 </configuration>
-			 </execution>
+				<execution>
+					<id>BaseTest</id>
+             	        <goals>
+                        	<goal>test</goal>
+                  	    </goals>
+                    	<phase>integration-test</phase>
+			  		<configuration>
+                 		<suiteXmlFiles>
+							<suiteXmlFile>src/test/resources/general.yaml</suiteXmlFile>
+						</suiteXmlFiles>
+                 		<properties>
+                 		<property>
+              				<name>listener</name>
+             				 <value>com.epam.reportportal.testng.ReportPortalTestNGListener</value>
+            			</property>
+            			</properties>
+			 		</configuration>
+			 	</execution>
 			 </executions>
 		</plugin>
 	</plugins>

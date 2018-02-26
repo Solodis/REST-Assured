@@ -12,341 +12,12 @@
 <body>
 <h1>Surefire test</h1>
 <p>
-  Test duration: 4.625s
+  Test duration: 0.280s
 </p>
 
-  <table class="resultsTable configTable">
-    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
-              <tr class="group">
-        <td colspan="3">epam.rest.utenkov.ResponseSpecTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  requestSpec
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-        
-    
-        
-
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              epam.rest.utenkov.ResponseSpecTest.requestSpec(ResponseSpecTest.java:27)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
-              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)<br />
-              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)<br />
-              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)<br />
-              org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:756)<br />
-              org.testng.TestRunner.run(TestRunner.java:610)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:387)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1218)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1133)<br />
-              org.testng.TestNG.run(TestNG.java:1104)<br />
-              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)<br />
-              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)<br />
-              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)<br />
-              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)<br />
-                </div>
-      </td>
-</tr>
-    
-      </table>
 
 
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">epam.rest.utenkov.BaseTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  addDashboard
-      </td>
-  <td class="duration">
-    0.236s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest#&nbsp; 54: start mathod [addDashboard]&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest#&nbsp; 56: Dashboard created:Dushboard name: NoName; Description: JustForTest; is share: false&lt;br&gt;<br />
-                  </div>
-    
 
-        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.NoSuchMethodError: com.fasterxml.jackson.annotation.JsonInclude$Value.merge(Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;</b></a><br />
-    <div class="stackTrace" id="exception-1">
-              com.fasterxml.jackson.databind.ser.PropertyBuilder.&lt;init&gt;(PropertyBuilder.java:64)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory.constructPropertyBuilder(BeanSerializerFactory.java:541)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties(BeanSerializerFactory.java:592)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory.constructBeanSerializer(BeanSerializerFactory.java:399)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanSerializer(BeanSerializerFactory.java:282)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory._createSerializer2(BeanSerializerFactory.java:234)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory.createSerializer(BeanSerializerFactory.java:168)<br />
-              com.fasterxml.jackson.databind.SerializerProvider._createUntypedSerializer(SerializerProvider.java:1308)<br />
-              com.fasterxml.jackson.databind.SerializerProvider._createAndCacheUntypedSerializer(SerializerProvider.java:1258)<br />
-              com.fasterxml.jackson.databind.SerializerProvider.findValueSerializer(SerializerProvider.java:500)<br />
-              com.fasterxml.jackson.databind.SerializerProvider.findTypedValueSerializer(SerializerProvider.java:698)<br />
-              com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:270)<br />
-              com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:2493)<br />
-              com.fasterxml.jackson.databind.ObjectMapper$writeValue$0.call(Unknown Source)<br />
-              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)<br />
-              org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)<br />
-              org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)<br />
-              io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy:53)<br />
-              io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy)<br />
-              io.restassured.mapper.ObjectMapper$serialize.call(Unknown Source)<br />
-              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)<br />
-              org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)<br />
-              org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)<br />
-              io.restassured.internal.mapping.ObjectMapping.serializeWithJackson2(ObjectMapping.groovy:181)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
-              org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite$StaticMetaMethodSiteNoUnwrapNoCoerce.invoke(StaticMetaMethodSite.java:151)<br />
-              org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.callStatic(StaticMetaMethodSite.java:102)<br />
-              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:56)<br />
-              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:194)<br />
-              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:214)<br />
-              io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:117)<br />
-              io.restassured.internal.mapping.ObjectMapping$serialize.call(Unknown Source)<br />
-              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)<br />
-              org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)<br />
-              io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:831)<br />
-              epam.rest.utenkov.BaseTest.addDashboard(BaseTest.java:60)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:756)<br />
-              org.testng.TestRunner.run(TestRunner.java:610)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:387)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1218)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1133)<br />
-              org.testng.TestNG.run(TestNG.java:1104)<br />
-              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)<br />
-              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)<br />
-              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)<br />
-              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  testDeleteRequest
-      </td>
-  <td class="duration">
-    0.517s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 149: start mathod [testDeleteRequest]&lt;br&gt;<br />
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: 1 expectation failed.<br/>
-Expected status code &lt;200&gt; but was &lt;405&gt;.<br/>
-</b></a><br />
-    <div class="stackTrace" id="exception-2">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
-              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
-              org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)<br />
-              org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)<br />
-              org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)<br />
-              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)<br />
-              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)<br />
-              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)<br />
-              io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)<br />
-              io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)<br />
-              io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)<br />
-              org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)<br />
-              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)<br />
-              io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)<br />
-              io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)<br />
-              io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)<br />
-              io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)<br />
-              epam.rest.utenkov.BaseTest.testDeleteRequest(BaseTest.java:155)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:756)<br />
-              org.testng.TestRunner.run(TestRunner.java:610)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:387)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1218)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1133)<br />
-              org.testng.TestNG.run(TestNG.java:1104)<br />
-              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)<br />
-              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)<br />
-              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)<br />
-              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  testPutRequest
-      </td>
-  <td class="duration">
-    0.001s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 131: start mathod [testPutRequest]&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 132: ID: &lt;br&gt;<br />
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.NoSuchMethodError: com.fasterxml.jackson.annotation.JsonInclude$Value.merge(Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;</b></a><br />
-    <div class="stackTrace" id="exception-3">
-              com.fasterxml.jackson.databind.ser.PropertyBuilder.&lt;init&gt;(PropertyBuilder.java:64)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory.constructPropertyBuilder(BeanSerializerFactory.java:541)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanProperties(BeanSerializerFactory.java:592)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory.constructBeanSerializer(BeanSerializerFactory.java:399)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory.findBeanSerializer(BeanSerializerFactory.java:282)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory._createSerializer2(BeanSerializerFactory.java:234)<br />
-              com.fasterxml.jackson.databind.ser.BeanSerializerFactory.createSerializer(BeanSerializerFactory.java:168)<br />
-              com.fasterxml.jackson.databind.SerializerProvider._createUntypedSerializer(SerializerProvider.java:1308)<br />
-              com.fasterxml.jackson.databind.SerializerProvider._createAndCacheUntypedSerializer(SerializerProvider.java:1258)<br />
-              com.fasterxml.jackson.databind.SerializerProvider.findValueSerializer(SerializerProvider.java:500)<br />
-              com.fasterxml.jackson.databind.SerializerProvider.findTypedValueSerializer(SerializerProvider.java:698)<br />
-              com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:270)<br />
-              com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:2493)<br />
-              com.fasterxml.jackson.databind.ObjectMapper$writeValue$0.call(Unknown Source)<br />
-              io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy:53)<br />
-              io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy)<br />
-              io.restassured.mapper.ObjectMapper$serialize.call(Unknown Source)<br />
-              io.restassured.internal.mapping.ObjectMapping.serializeWithJackson2(ObjectMapping.groovy:181)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)<br />
-              org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite$StaticMetaMethodSiteNoUnwrapNoCoerce.invoke(StaticMetaMethodSite.java:151)<br />
-              org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.callStatic(StaticMetaMethodSite.java:102)<br />
-              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:214)<br />
-              io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:117)<br />
-              io.restassured.internal.mapping.ObjectMapping$serialize.call(Unknown Source)<br />
-              io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:831)<br />
-              epam.rest.utenkov.BaseTest.testPutRequest(BaseTest.java:136)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
-              java.lang.reflect.Method.invoke(Unknown Source)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:756)<br />
-              org.testng.TestRunner.run(TestRunner.java:610)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:387)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1218)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1133)<br />
-              org.testng.TestNG.run(TestNG.java:1104)<br />
-              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)<br />
-              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)<br />
-              org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)<br />
-              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)<br />
-                </div>
-      </td>
-</tr>
-      </table>
-
-  <table class="resultsTable" width="100%">
-    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">epam.rest.utenkov.ResponseSpecTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  testStatusCodeRestAssured
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-                         
-    
-        
-
-      </td>
-</tr>
-      </table>
 
   <table class="resultsTable">
     <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
@@ -356,103 +27,19 @@ Expected status code &lt;200&gt; but was &lt;405&gt;.<br/>
             
 <tr>
   <td class="method">
-                  allLaunchs
-      </td>
-  <td class="duration">
-    1.150s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest#&nbsp; 92: start mathod [allLaunchs]&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 122: 5a757f1330c49e0001714840&lt;br&gt; Total: 42&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 122: 5a757f1530c49e0001714c94&lt;br&gt; Total: 76&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 122: 5a757f1a30c49e00017155db&lt;br&gt; Total: 119&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 122: 5a757f2030c49e0001716304&lt;br&gt; Total: 131&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 122: 5a757f2730c49e0001717229&lt;br&gt; Total: 133&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 122: 5a757f2e30c49e0001718277&lt;br&gt; Total: 135&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 122: 5a757f3630c49e0001719210&lt;br&gt; Total: 137&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 122: 5a757f3e30c49e000171a22c&lt;br&gt; Total: 138&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 125: Num Of Failed Launches: 8&lt;br&gt;=============================&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 126: end mathod [allLaunchs]&lt;br&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  allLaunchsSecondTest
-      </td>
-  <td class="duration">
-    0.667s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 165: start mathod [allLaunchsSecondTest]&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 182: 5a757f1130c49e00017145f9&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 182: 5a757f3e30c49e000171a22c&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest# 186: end mathod [allLaunchsSecondTest]&lt;br&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  receivingOfDashboards
-      </td>
-  <td class="duration">
-    0.532s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest#&nbsp; 76: &lt;br&gt;********************&lt;br&gt;start mathod [receivingOfDashboards]&lt;br&gt;********************&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest#&nbsp; 85: &lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest#&nbsp; 86: end mathod [receivingOfDashboards]&lt;br&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
                   testCodeResponse
       </td>
   <td class="duration">
-    1.264s
+    0.016s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest#&nbsp; 42: start mathod [testCodeResponse]&lt;br&gt;<br />
-                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest#&nbsp; 49: end mathod [testCodeResponse]&lt;br&gt;<br />
+                        ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest#&nbsp; 39: start mathod [testCodeResponse]&lt;br&gt;<br />
+                                ReportingAppender:&nbsp; INFO&nbsp;&nbsp;&nbsp; BaseTest#&nbsp; 42: end mathod [testCodeResponse]&lt;br&gt;<br />
                   </div>
     
-
-      </td>
-</tr>
-          <tr>
-        <td colspan="3" class="group">epam.rest.utenkov.RequestSpecTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  testGetLaunches
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-        
-    
-        
 
       </td>
 </tr>
