@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="epam.rest.utenkov.BaseTest"/>
+      <class name="epam.rest.utenkov.DashboardTest"/>
+      <class name="epam.rest.utenkov.LaunchTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
