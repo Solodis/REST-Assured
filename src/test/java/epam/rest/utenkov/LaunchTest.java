@@ -97,7 +97,7 @@ public class LaunchTest extends BaseTest{
 			launches.add(new Launch(owner, description, id, name, status, executions));
 			i++;
 		}
-		launches.stream().forEach(System.out::println);
+		//launches.stream().forEach(System.out::println);
 		LOG.info("end mathod [allLaunchsSecondTest]");
 	}
 	
