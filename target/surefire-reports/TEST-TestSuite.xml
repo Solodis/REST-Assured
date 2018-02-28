@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.987" tests="10" errors="0" skipped="1" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.519" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Vyacheslav_Utenkov\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7786147058091588020.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Vyacheslav_Utenkov\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5913787805729798397.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\Vyacheslav_Utenkov\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Maven\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\Vyacheslav_Utenkov\.m2\repository\junit\junit\4.10;;C:\Users\Vyacheslav_Utenkov\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\Vyacheslav_Utenkov\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Maven\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\Vyacheslav_Utenkov\.m2\repository\junit\junit\4.10;C:\Program Files (x86)\Jenkins\war;;C:\Users\Vyacheslav_Utenkov\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,43 +60,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testCodeResponse" classname="epam.rest.utenkov.BaseTest" time="1.265"/>
-  <testcase name="testGetLaunches" classname="epam.rest.utenkov.RequestSpecTest" time="0.001"/>
-  <testcase name="requestSpec" classname="epam.rest.utenkov.ResponseSpecTest" time="0.007">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at epam.rest.utenkov.ResponseSpecTest.requestSpec(ResponseSpecTest.java:27)
-</failure>
-  </testcase>
-  <testcase name="testStatusCodeRestAssured" classname="epam.rest.utenkov.ResponseSpecTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="addDashboard" classname="epam.rest.utenkov.BaseTest" time="0.236">
-    <failure message="com.fasterxml.jackson.annotation.JsonInclude$Value.merge(Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: com.fasterxml.jackson.annotation.JsonInclude$Value.merge(Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
-	at epam.rest.utenkov.BaseTest.addDashboard(BaseTest.java:60)
-</failure>
-    <system-out><![CDATA[ INFO    BaseTest#  54: start mathod [addDashboard]
- INFO    BaseTest#  56: Dashboard created:Dushboard name: NoName; Description: JustForTest; is share: false
-]]></system-out>
-  </testcase>
-  <testcase name="receivingOfDashboards" classname="epam.rest.utenkov.BaseTest" time="0.532"/>
-  <testcase name="allLaunchs" classname="epam.rest.utenkov.BaseTest" time="1.15"/>
-  <testcase name="testPutRequest" classname="epam.rest.utenkov.BaseTest" time="0.002">
-    <failure message="com.fasterxml.jackson.annotation.JsonInclude$Value.merge(Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: com.fasterxml.jackson.annotation.JsonInclude$Value.merge(Lcom/fasterxml/jackson/annotation/JsonInclude$Value;Lcom/fasterxml/jackson/annotation/JsonInclude$Value;)Lcom/fasterxml/jackson/annotation/JsonInclude$Value;
-	at epam.rest.utenkov.BaseTest.testPutRequest(BaseTest.java:136)
-</failure>
-    <system-out><![CDATA[ INFO    BaseTest# 131: start mathod [testPutRequest]
- INFO    BaseTest# 132: ID: 
-]]></system-out>
-  </testcase>
-  <testcase name="testDeleteRequest" classname="epam.rest.utenkov.BaseTest" time="0.517">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <405>.
-
-	at epam.rest.utenkov.BaseTest.testDeleteRequest(BaseTest.java:155)
-]]></failure>
-    <system-out><![CDATA[ INFO    BaseTest# 149: start mathod [testDeleteRequest]
-]]></system-out>
-  </testcase>
-  <testcase name="allLaunchsSecondTest" classname="epam.rest.utenkov.BaseTest" time="0.667"/>
+  <testcase name="testCodeResponse" classname="epam.rest.utenkov.DashboardTest" time="1.346"/>
+  <testcase name="testCodeResponse" classname="epam.rest.utenkov.LaunchTest" time="0.488"/>
+  <testcase name="allLaunchs" classname="epam.rest.utenkov.LaunchTest" time="1.275"/>
+  <testcase name="allLaunchs" classname="epam.rest.utenkov.LaunchTest" time="0.928"/>
+  <testcase name="allLaunchs" classname="epam.rest.utenkov.LaunchTest" time="0.702"/>
+  <testcase name="allLaunchsSecondTest" classname="epam.rest.utenkov.LaunchTest" time="0.994"/>
+  <testcase name="testCodeResponse" classname="epam.rest.utenkov.BaseTest" time="0.485"/>
+  <testcase name="addDashboard" classname="epam.rest.utenkov.DashboardTest" time="0.654"/>
+  <testcase name="testPutRequest" classname="epam.rest.utenkov.DashboardTest" time="0.501"/>
+  <testcase name="checkDashboardFields" classname="epam.rest.utenkov.DashboardTest" time="0.507"/>
+  <testcase name="receivingOfDashboards" classname="epam.rest.utenkov.DashboardTest" time="0.482"/>
+  <testcase name="testDeleteRequest" classname="epam.rest.utenkov.DashboardTest" time="0.535"/>
 </testsuite>

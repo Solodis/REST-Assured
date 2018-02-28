@@ -1,9 +1,7 @@
 package epam.rest.utenkov;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.CoreMatchers.equalTo;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -13,16 +11,14 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.uncommons.reportng.HTMLReporter;
 
-import epam.rest.utenkov.bo.Dashboard;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 @Listeners({HTMLReporter.class})
 public class BaseTest {
 	
-	protected static final Logger LOG = Logger.getLogger(BaseTest.class);
-	public String auth = "bearer a6106628-eb66-4d6f-a3f7-76f5af3a6ec6";
+	private static final Logger LOG = Logger.getLogger(BaseTest.class);
+	public String auth = "bearer 1dc17a5e-e186-42bb-99b7-a119e0d1271b";
 	public String dashboardID = "";
 	public List<String> launchList = null;
 	public static final int REQUIRED_TOTAL = 138;

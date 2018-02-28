@@ -1,15 +1,13 @@
 package epam.rest.utenkov;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.lessThan;
 import static org.testng.Assert.assertEquals;
-
-import java.util.Arrays;
-import java.util.Collections;
+import static org.testng.Assert.assertFalse;
 
 import org.apache.log4j.Logger;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import org.testng.asserts.Assertion;
 import org.uncommons.reportng.HTMLReporter;
 
 import epam.rest.utenkov.bo.Dashboard;
@@ -19,9 +17,13 @@ import io.restassured.response.Response;
 @Listeners({HTMLReporter.class})
 public class DashboardTest extends BaseTest{
 	
+	private static final Logger LOG = Logger.getLogger(DashboardTest.class);
 	private static final String ACTUAL_NAME = "RestAssuredProject";
 	private static final String ACTUAL_OWNER = "vyacheslav_utenkov";
 	
+	/**
+	 * The method is adding a new dashboard to the ReportPortal 
+	 */
 	@Test(dependsOnGroups="Launches")
 	public void addDashboard(){
 		Dashboard dash = new Dashboard("NoName", "JustForTest", "false");
@@ -32,6 +34,10 @@ public class DashboardTest extends BaseTest{
 			.contentType("application/json")
 			.post("/dashboard")
 		.then()
+		/**
+		 * Checking that time of execution is less then 700 mls
+		 */
+			.time(lessThan(700l))
 			.assertThat()
 			.statusCode(201)
 			.extract()
@@ -85,11 +91,12 @@ public class DashboardTest extends BaseTest{
 		String owner = res.getBody().path("owner[1]").toString();
 		String name = res.getBody().path("name[1]").toString();
 		assertEquals(owner, ACTUAL_OWNER);
+		assertFalse(!owner.equals(ACTUAL_OWNER));
 		assertEquals(name, ACTUAL_NAME);
 		LOG.info("end method [checkDashboardFields]\n");
 	}
 	
-	@Test(dependsOnMethods="testPutRequest")
+	@Test(dependsOnMethods="testPutRequest", alwaysRun = true)
 	public void testDeleteRequest(){
 		LOG.info("start mathod [testDeleteRequest]");
 		int expectedCode = 200;

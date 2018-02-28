@@ -6,7 +6,10 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.ResourceBundle;
 
+import org.apache.log4j.Logger;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import epam.rest.utenkov.bo.Launch;
@@ -15,10 +18,10 @@ import io.restassured.response.Response;
 
 public class LaunchTest extends BaseTest{
 	
+	private static final Logger LOG = Logger.getLogger(LaunchTest.class);
 	List<Launch> launches = new ArrayList<Launch>();
-	
-	@Test(groups = "Launches")
-	public void allLaunchs(){
+	@Test(groups = "Launches", dataProvider="dp")
+	public void allLaunchs(String value){
 		
 		LOG.info("start mathod [allLaunchs]");
 		Response res = 
@@ -39,9 +42,9 @@ public class LaunchTest extends BaseTest{
 		int numOfFailedLaunches = 0;
 		while(res.path("content["+ i +"].statistics.executions.total") != null){
 			int totalValue = Integer.parseInt(res.path("content["+ i +"].statistics.executions.total").toString());
-			if(totalValue > 20){
+			if(totalValue > 0){
 				listOfValues.add(res.path("content["+ i +"].id").toString() + "\n Total: " + totalValue);
-				if(!(res.path("content["+ i +"].status")).equals("FAILD")){
+				if(res.path("content["+ i +"].status").toString().equals(value)){
 					numOfFailedLaunches++;
 				}
 			}
@@ -51,7 +54,7 @@ public class LaunchTest extends BaseTest{
 			LOG.info(string);
 		}
 
-		LOG.info("Num Of Failed Launches: " + numOfFailedLaunches + "\n===============================================" );
+		LOG.info("Num Of " + value + " Launches: " + numOfFailedLaunches + "\n===============================================" );
 		LOG.info("end mathod [allLaunchs]");
 	}
 	
@@ -96,5 +99,15 @@ public class LaunchTest extends BaseTest{
 		}
 		launches.stream().forEach(System.out::println);
 		LOG.info("end mathod [allLaunchsSecondTest]");
+	}
+	
+	@DataProvider(name = "dp")
+	public static Object[][] provideStatus(){
+		ResourceBundle status = ResourceBundle.getBundle("statuses");
+		return  new Object[][]{
+				new Object[] {status.getString("Status.FAILED")},
+				new Object[] {status.getString("Status.PASSED")},
+				new Object[] {status.getString("Status.DEFOULT")}
+		};
 	}
 }
