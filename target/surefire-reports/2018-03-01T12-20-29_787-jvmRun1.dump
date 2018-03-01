@@ -1,0 +1,25 @@
+# Created on 2018-03-01T12:20:30.634
+java.lang.NoClassDefFoundError: rp/com/google/common/base/Supplier
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getConstructor0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:69)
+	at org.testng.TestNG.setListenerClasses(TestNG.java:601)
+	at org.testng.TestNG.configure(TestNG.java:1422)
+	at org.testng.TestNG.configure(TestNG.java:1595)
+	at org.apache.maven.surefire.testng.conf.TestNGMapConfigurator.configure(TestNGMapConfigurator.java:56)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:279)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.ClassNotFoundException: rp.com.google.common.base.Supplier
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 15 more
+
+

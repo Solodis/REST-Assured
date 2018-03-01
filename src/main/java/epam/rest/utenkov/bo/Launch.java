@@ -10,7 +10,7 @@ public class Launch {
 	private String name;
 	private String status;
 	private Map<String, String> executions;
-	
+
 	public Launch(String owner, String description, String id, String name, String status, HashMap executions) {
 		super();
 		this.owner = owner;
@@ -71,10 +71,9 @@ public class Launch {
 
 	@Override
 	public String toString() {
-		return "Launch [owner = " + owner + ", description = " + description + ", id = " + id + ", name = " + name + ", status = "
-				+ status + ",\n executions = " + executions + "]";
+		return "Launch [owner = " + owner + ", description = " + description + ", id = " + id + ", name = " + name
+		        + ", status = "
+		        + status + ",\n executions = " + executions + "]";
 	}
-	
-	
-	
+
 }
