@@ -18,7 +18,7 @@ import io.restassured.response.Response;
 public class BaseTest {
 	
 	private static final Logger LOG = Logger.getLogger(BaseTest.class);
-	public String auth = "bearer 1dc17a5e-e186-42bb-99b7-a119e0d1271b";
+	public String auth = "bearer b2e90482-142b-4034-89ac-008aa5e13181";
 	public String dashboardID = "";
 	public List<String> launchList = null;
 	public static final int REQUIRED_TOTAL = 138;
