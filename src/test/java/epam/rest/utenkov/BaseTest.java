@@ -17,10 +17,13 @@ import io.restassured.response.Response;
 public class BaseTest {
 
 	private static final Logger LOG = Logger.getLogger(BaseTest.class);
-	public String auth = "bearer b2e90482-142b-4034-89ac-008aa5e13181";
+	public String auth = "bearer db24de65-9a1d-471d-920c-5fbb052e0953";
 	public String dashboardID = "";
 	public List<String> launchList = null;
 	public static final int REQUIRED_TOTAL = 138;
+	private final int OK_RESPONSE = 200;
+	private String password;
+	private String username;
 
 	@BeforeTest
 	public void setBasicData() {
@@ -36,11 +39,26 @@ public class BaseTest {
 	 *                [testCodeResponse]"); }
 	 */
 	@Test(priority = 0)
+	public void testLogin() {
+		LOG.info("start mathod [testLogin]");
+		Response res = given()
+		        .param("password", password)
+		        .param("uesrname", username)
+		        .get("https://rp.epam.com/ui/")
+		        .andReturn();
+		Assert.assertEquals(res.getStatusCode(), OK_RESPONSE);
+		LOG.assertLog(true, "seegss");
+		LOG.info("end mathod [testLogin]");
+	}
+
+	@Test(priority = 1)
 	public void testCodeResponse() {
 		LOG.info("start mathod [testCodeResponse]");
 		Response res = given().header("Authorization", auth).get("/launch").andReturn();
-		Assert.assertEquals(res.getStatusCode(), 200);
+		Assert.assertEquals(res.getStatusCode(), OK_RESPONSE);
 		LOG.assertLog(true, "seegss");
 		LOG.info("end mathod [testCodeResponse]");
+		
+		// Software Test Automation Engineer
 	}
 }
