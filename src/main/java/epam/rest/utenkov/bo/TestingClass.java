@@ -7,5 +7,6 @@ public class TestingClass {
 	public TestingClass(Widgets widget) {
 		super();
 		this.widget = widget;
+		System.out.println("WORP");
 	}
 }
